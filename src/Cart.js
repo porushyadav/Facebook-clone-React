@@ -4,7 +4,7 @@ const Cart =(props)=>{
   
    
         const{products}=props;
-        
+        console.log(props);
         return (
             <div className="cart">
             {products.map((product)=>{
